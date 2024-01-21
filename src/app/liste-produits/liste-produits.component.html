@@ -1,0 +1,13 @@
+<!-- <section class="listProduct">
+<h2>Liste des produits</h2>
+<app-fiche-produit [produit]="produits[0]"></app-fiche-produit>
+<app-fiche-produit [produit]="produits[1]"></app-fiche-produit>
+<app-fiche-produit [produit]="produits[2]"></app-fiche-produit> 
+</section> -->
+
+
+<section class="listProduct">
+    <h2>Liste des produits</h2>
+    <app-fiche-produit *ngFor="let p of produits" [produit]="p"></app-fiche-produit> <!-- permet d'utilsier une variable tmeporaire. le p représente la première lettre, puis réutilisée à l'autre endroit. Doit etre le meme-->
+    </section> 
+

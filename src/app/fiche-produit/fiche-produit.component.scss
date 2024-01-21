@@ -1,0 +1,31 @@
+:host{
+    & .cardProduct{
+    background-color: lightblue;
+    border-width: .25rem;
+    border-style: solid;
+    border-color: black;
+    padding:1rem;
+    margin: 1rem 0;
+    }
+    & .cardInfo{
+        display:flex;
+        flex-direction: row;
+        align-items: start;
+        & div.cardImg{
+            min-width:20%;
+        }
+        & div.cardDetails{
+            min-width:60%;
+        }
+        & div.priceInfo{
+            display:flex;
+            flex-direction: column;
+            min-width:20%;
+        }
+        
+    }
+
+    & h3{
+        font-weight: bold;
+    }
+}

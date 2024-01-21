@@ -1,0 +1,35 @@
+import {Produit } from "./produit";
+
+export const PRODUITS: Produit[] = [
+    {   nom: "Produit 1",
+        description: "",
+        prix: 10,
+        lien: "",
+        url_image:"",
+    },
+    {   nom: "Produit 2",
+    description: "",
+    prix: 30,
+    lien: "",
+    url_image:"",
+},
+{   nom: "Produit 3",
+description: "",
+prix: 10,
+lien: "",
+url_image:"",
+},
+{   nom: "Produit 4",
+description: "",
+prix: 10,
+lien: "",
+url_image:"",
+},
+{   nom: "Produit 5",
+description: "",
+prix: 30,
+lien: "",
+url_image:"",
+}
+
+];

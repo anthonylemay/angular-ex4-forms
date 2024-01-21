@@ -1,0 +1,15 @@
+<div class="cardProduct">
+    <h1>Fiche Produit</h1>
+    <div class="cardInfo">
+        <div class="cardImg">
+            <app-fp-img *ngIf="produit.url_image" [image]="produit.url_image"></app-fp-img>
+        </div>
+        <div class="cardDetails">
+            <app-fp-info [nom]="produit.nom" [desc]="produit.description"></app-fp-info>
+        </div>
+        <div class="priceInfo">
+            <app-fp-prix [prix]="produit.prix"></app-fp-prix>
+            <app-fp-detail-btn [lien]="produit.lien"></app-fp-detail-btn>
+        </div>
+    </div>
+</div>
